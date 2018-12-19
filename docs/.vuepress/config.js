@@ -36,6 +36,10 @@ module.exports = {
         lastUpdated: '上次更新',
         nav: [
           {
+            text: '快速搭建开发环境',
+            link: '/zh/standard/Start.md'
+          },
+          {
             text: '项目相关',
             items: [
               { text: '前端规范', link: '/zh/standard/Standard.md'},
@@ -46,11 +50,9 @@ module.exports = {
           {
             text: '知名公司面试题',
             items: [
-              { text: '面试必看', link: '/zh/interview/'},
+              { text: '面试必看', link: '/zh/interview/index.md'},
               { text: '阿里巴巴', link: '/zh/interview/ali.md'},
-              { text: '今日头条', link: '/zh/interview/headline.md'},
-              { text: '龙湖地产', link: '/zh/interview/longhu.md'},
-              { text: '快手', link: '/zh/interview/quick.md'}
+              { text: '龙湖地产', link: '/zh/interview/longhu.md'}
             ]
           },
           {
