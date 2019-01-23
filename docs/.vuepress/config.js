@@ -1,5 +1,5 @@
 module.exports = {
-  dest: 'vuepress',
+  dest: '../../jasonandjay.github.com/study',
   base: '/study/',
   markdown: {
     toc: { includeLevel: [2, 3] }
@@ -60,7 +60,8 @@ module.exports = {
             items: [
               { text: 'Vue', link: '/zh/vue/' },
               { text: 'React', link: '/zh/react/'},
-              { text: '小程序', link: '/zh/miniapp/' }
+              { text: '小程序', link: '/zh/miniapp/' },
+              { text: '悦读管理后台', link: '/zh/interface/Yuedu.md'},
             ]
           },
           // {
